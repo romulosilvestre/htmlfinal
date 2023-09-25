@@ -7,13 +7,13 @@ function inicio() {
     const atrasoDevagar = 7000
 
     setTimeout(function () {
-        btn.style.display = "none"     
-        audio.play() 
+        btn.style.display = "none"
+        audio.play()
     }, atrasoRapido);
 
     setTimeout(function () {
-        elementoTexto.textContent = textoOriginal   
+        elementoTexto.textContent = textoOriginal
     }, atrasoDevagar);
 
- 
+
 }
