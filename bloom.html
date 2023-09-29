@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bloom</title>
+</head>
+<body>
+    <h1>Cadastro da Taxonomia de Bloom</h1>
+    <form id="meuForm">
+        <label style="color: blue;">nome</label>
+        <input type="text" id="nome">
+        <input type="submit" value="enviar">
+
+    </form> 
+
+
+    <script>
+        // Função para lidar com a submissão do formulário
+        function handleSubmit(event) {
+            event.preventDefault(); // Impede o comportamento padrão de recarregar a página
+            // Obtenha os dados do formulário
+            const nome = document.getElementById("nome").value;
+            // Faça o que você quiser com os dados, por exemplo, exiba-os em um alerta
+            alert(`Nome: ${nome}`);
+        }
+        // Adicione um ouvinte de evento de submissão ao formulário
+        const meuForm = document.getElementById("meuForm");
+        meuForm.addEventListener("submit", handleSubmit);
+    </script>
+</body>
+</html>
+
+
+
+</body>
+</html>

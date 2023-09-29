@@ -26,6 +26,13 @@
 
             margin-left: 450px;
         }
+
+        ul {
+            color: aliceblue;
+          
+        }
+
+        
     </style>
 </head>
 
@@ -39,29 +46,27 @@
 
     <p></p>
 
+    <!--CODIGO DA AVALIAÇÃO-->
+    <ul>
+        <li>Portal Conceitual</li>
+        <li>Portal Estrutural</li>
+        <li>Portal Essencial</li>
+    </ul>
     <div class="img-container">
 
-
+        Encontrar Tags
         <canvas id="jogo" width="300" height="300">
             O browser não suporta a tecnologia
         </canvas>
-
     </div>
-
-
     <script>
         var canvas = document.getElementById("jogo")
         var context = canvas.getContext("2d")
         var imagem = new Image()
         imagem.src = "img/furao-guerreiro.png"
-
-
+        //CODIGO DA AVALIAÇÃO
         var mensagem = document.querySelector("p")
-
-        mensagem.innerHTML = `Missões para o Furão Guerreiro`
-
-
-
+        mensagem.innerHTML = `Missão 1 - Encontrar Tags`
     </script>
 </body>
 
