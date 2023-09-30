@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestão de Competências</title>
+</head>
+
+<body>
+    <h1>Cadastro de Competência</h1>
+    <form>
+        <label>Nível Bloom</label>
+        <select>
+            <option>Memorizar</option>
+            <option>Compreender</option>
+            <option>Aplicar</option>
+            <option>Analisar</option>
+            <option>Avaliar</option>
+            <option>Criar</option>
+        </select>
+        <br> <br>
+        <label for="verbo">Selecione o verbo:</label>
+        <input list="verbos" name="verbo" id="verbo">
+
+        <datalist id="verbos">
+            <option value="Listar">
+            <option value="Relembrar">
+            <option value="Reconhecer">
+            <option value="Identificar">
+            <option value="Localizar">
+            <option value="Descrever">
+            <option value="Citar">
+        </datalist>
+
+        <br> <br>
+
+        <label>descrição</label>
+        <textarea rows="4" cols="50"></textarea>
+    </form>
+
+</body>
+
+</html>
