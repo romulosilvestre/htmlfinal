@@ -1,0 +1,25 @@
+Competência:
+
+Listar as principais Tags HTML
+
+Etapa
+id=1
+instrução: encontre uma tag que crie um parágrafo
+a tag esta dentro da nave.
+ponto:0,1
+Tipo: C
+
+id=2
+instrucao: ao encontrar os inimigos para destruí-los
+deverá digitar uma tag dentro de uma caixa de texto.
+ponto: 2
+H
+
+id=3
+
+instrucao: digite rápido com os colegas, não desanime
+tenha coragem e vença. Aparecerá furões, um de cada
+amigo e assim, o que digitar mais rápido vence.
+ponto:3
+A
+
